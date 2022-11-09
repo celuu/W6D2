@@ -11,9 +11,9 @@ GEM
     i18n (1.1.0)
       concurrent-ruby (~> 1.0)
     minitest (5.11.3)
-    pg (1.4.4)
-    postgresql (1.0.0)
-      pg
+    pg (0.21.0)
+    postgres (0.8.1)
+      pg (~> 0)
     rspec (3.1.0)
       rspec-core (~> 3.1.0)
       rspec-expectations (~> 3.1.0)
@@ -35,7 +35,7 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport
-  postgresql
+  postgres
   rspec (~> 3.1.0)
 
 BUNDLED WITH
